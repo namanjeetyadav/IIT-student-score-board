@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +27,8 @@
             padding: 20px;
         }
 
-        h1, h2 {
+        h1,
+        h2 {
             text-align: center;
             margin-bottom: 30px;
             color: #1f8b4c;
@@ -38,7 +40,8 @@
             margin-bottom: 20px;
         }
 
-        th, td {
+        th,
+        td {
             padding: 12px;
             text-align: center;
             border-bottom: 1px solid #ddd;
@@ -65,8 +68,34 @@
             font-size: 14px;
             color: #888;
         }
+
+       
+        a {
+            text-decoration: none;
+         
+            color: #1b1f22;    
+           
+            padding: 5px 10px;
+           
+            border: 2px solid transparent;
+            
+            transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+        }
+
+  
+        a:hover {      
+            
+            border-color: #1d2225;
+        
+        }
+
+        .class-anchor{
+            margin: 15px 10px 10px 10px;
+        }
+
     </style>
 </head>
+
 <body>
     <div class="container">
         <h1>Badminton Leaderboard</h1>
@@ -77,29 +106,39 @@
             </tr>
             <tr>
                 <td>Sivaditya</td>
-                <td>4</td>
+                <td>4+4</td>
             </tr>
             <tr>
                 <td>Arpit</td>
-                <td>4</td>
+                <td>4+0</td>
             </tr>
             <tr>
                 <td>Pradyot</td>
-                <td>4</td>
+                <td>4+1</td>
             </tr>
             <tr>
                 <td>Samrat</td>
-                <td>3</td>
+                <td>3+3</td>
             </tr>
             <tr>
                 <td>Neel</td>
-                <td>1</td>
+                <td>1+0</td>
             </tr>
             <tr>
                 <td>Prakhar</td>
-                <td>0</td>
+                <td>0+2</td>
             </tr>
         </table>
+
+        <div class="class-anchor">
+            <a href="Week 01.html"> Week 01 Matches</a> <br>
+        </div>
+        <div class="class-anchor">
+            <a href="Week 02.html"> Week 02 Matches</a> <br>
+        </div>
+        <div class="class-anchor">
+            <a href="Week 03.html"> Week 03 Matches</a>
+        </div>
 
         <h2>Match Results</h2>
         <table>
@@ -175,9 +214,12 @@
             </tr>
         </table>
 
+
+
         <div class="footer">
             &copy; 2024 Badminton Tournament Scoreboard
         </div>
     </div>
 </body>
+
 </html>
